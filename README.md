@@ -1,6 +1,6 @@
-InnerShadow
+THInnerShadow
 ======================
-InnerShadow is a UIView class extension that adds inner shadow to view.
+THInnerShadow is a UIView class extension that adds inner shadow to view.
 
 How to use
 ------
@@ -9,6 +9,7 @@ Please see example.
 Install
 ------
 Add UIView+InnserShadow.m and UIView+InnserShadow.h to your project.
+Or use cocoapods and THInnerShadow.podspec.
 
 License
 ----------
