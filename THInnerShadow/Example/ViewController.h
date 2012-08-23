@@ -1,9 +1,9 @@
 //
 //  ViewController.h
-//  InnerShadow
+//  THInnerShadow
 //
 //  Created by hosokawa toru on 08/17/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2012 hosokawa0825. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

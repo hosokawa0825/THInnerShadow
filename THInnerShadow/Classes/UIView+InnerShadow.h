@@ -1,6 +1,6 @@
 //
 //  UIView+InnerShadow.h
-//  InnerShadow
+//  THInnerShadow
 //
 //  Created by toru hosokawa on 12/08/17.
 //  Copyright (c) 2012 hosokawa0825. All rights reserved.

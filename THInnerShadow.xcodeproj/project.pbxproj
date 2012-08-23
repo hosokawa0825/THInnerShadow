@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8ECE771D15DE547C00F13B08 /* UIView+InnerShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECE771C15DE547C00F13B08 /* UIView+InnerShadow.m */; };
+		FCD712F52ECCFDC69B286D8D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCD71FFEF10C41179CBD35B7 /* InfoPlist.strings */; };
+		FCD713EB9F4F3CEC83410E70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD71B80CA80D73756273CD3 /* AppDelegate.m */; };
+		FCD71575B4FFACC4464479F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD71F456A29482DDCEA8692 /* ViewController.m */; };
+		FCD715D596C9E71EEBDB715E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD711770171D68D016E1A23 /* QuartzCore.framework */; };
+		FCD7181237154F161FD8FCFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD719765FB53B43918A5686 /* Foundation.framework */; };
+		FCD7193741D858DC540D47AE /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCD71304001AA650F910D82B /* ViewController.xib */; };
+		FCD71C9A49024444F1F58AB0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD7184805FB3AB5913AF15E /* UIKit.framework */; };
+		FCD71E2D610DC952B6DF2B13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD712423156E6FDFD64E145 /* main.m */; };
+		FCD71E87C44F6DBE0B298FE8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD71AC39EACE4B76AAA9E6B /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8ECE771B15DE547C00F13B08 /* UIView+InnerShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+InnerShadow.h"; sourceTree = "<group>"; };
+		8ECE771C15DE547C00F13B08 /* UIView+InnerShadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+InnerShadow.m"; sourceTree = "<group>"; };
+		FCD711770171D68D016E1A23 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FCD712423156E6FDFD64E145 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCD712C419420C1EFAEC5D88 /* THInnerShadow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = THInnerShadow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD715683CC6A02B9F71AFC6 /* ViewController_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ViewController_iPad.xib; path = ../en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		FCD71699811AA0F47796E9F6 /* THInnerShadow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "THInnerShadow-Prefix.pch"; sourceTree = "<group>"; };
+		FCD7184805FB3AB5913AF15E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FCD719765FB53B43918A5686 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FCD71AC39EACE4B76AAA9E6B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FCD71B62547A607D92EE8302 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FCD71B80CA80D73756273CD3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FCD71C74375CEBA2A7F89E6B /* THInnerShadow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "THInnerShadow-Info.plist"; sourceTree = "<group>"; };
+		FCD71D77B4AD006AAC1E39D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FCD71DE3CE5E8C8220EA6F50 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FCD71F456A29482DDCEA8692 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCD71CC4CABDE917EA51C5D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD71C9A49024444F1F58AB0 /* UIKit.framework in Frameworks */,
+				FCD7181237154F161FD8FCFF /* Foundation.framework in Frameworks */,
+				FCD71E87C44F6DBE0B298FE8 /* CoreGraphics.framework in Frameworks */,
+				FCD715D596C9E71EEBDB715E /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCD7113859FAFCCD164D6241 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCD71699811AA0F47796E9F6 /* THInnerShadow-Prefix.pch */,
+				FCD712423156E6FDFD64E145 /* main.m */,
+				FCD71FFEF10C41179CBD35B7 /* InfoPlist.strings */,
+				FCD71C74375CEBA2A7F89E6B /* THInnerShadow-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCD711A7CD141E4D514BDF7F = {
+			isa = PBXGroup;
+			children = (
+				FCD7128B06B3A4DBD1201982 /* Products */,
+				FCD71C2E22E4A7F6F9D44DA0 /* Frameworks */,
+				FCD71FDCBFC2FE4B3A1ADEBA /* THInnerShadow */,
+			);
+			sourceTree = "<group>";
+		};
+		FCD7128B06B3A4DBD1201982 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCD712C419420C1EFAEC5D88 /* THInnerShadow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCD71C2876F630425125EAA9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8ECE771B15DE547C00F13B08 /* UIView+InnerShadow.h */,
+				8ECE771C15DE547C00F13B08 /* UIView+InnerShadow.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FCD71C2E22E4A7F6F9D44DA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCD711770171D68D016E1A23 /* QuartzCore.framework */,
+				FCD71AC39EACE4B76AAA9E6B /* CoreGraphics.framework */,
+				FCD719765FB53B43918A5686 /* Foundation.framework */,
+				FCD7184805FB3AB5913AF15E /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCD71D7C45EBB87874C4079F /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				FCD71F456A29482DDCEA8692 /* ViewController.m */,
+				FCD71DE3CE5E8C8220EA6F50 /* ViewController.h */,
+				FCD71B80CA80D73756273CD3 /* AppDelegate.m */,
+				FCD71D77B4AD006AAC1E39D3 /* AppDelegate.h */,
+				FCD71304001AA650F910D82B /* ViewController.xib */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		FCD71FDCBFC2FE4B3A1ADEBA /* THInnerShadow */ = {
+			isa = PBXGroup;
+			children = (
+				FCD7113859FAFCCD164D6241 /* Supporting Files */,
+				FCD71D7C45EBB87874C4079F /* Example */,
+				FCD71C2876F630425125EAA9 /* Classes */,
+			);
+			path = THInnerShadow;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCD71212C957633A0B226D03 /* THInnerShadow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCD71EA3DD871A51C9752B28 /* Build configuration list for PBXNativeTarget "THInnerShadow" */;
+			buildPhases = (
+				FCD71B71B2DF2D48F3BF80E8 /* Sources */,
+				FCD71CC4CABDE917EA51C5D3 /* Frameworks */,
+				FCD719E6C2FCCDA20A9B9C1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = THInnerShadow;
+			productName = InnerShadow;
+			productReference = FCD712C419420C1EFAEC5D88 /* THInnerShadow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCD715E1664D44D8A153F6A7 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = FCD71B2613A838B47CB5B39C /* Build configuration list for PBXProject "THInnerShadow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FCD711A7CD141E4D514BDF7F;
+			productRefGroup = FCD7128B06B3A4DBD1201982 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCD71212C957633A0B226D03 /* THInnerShadow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCD719E6C2FCCDA20A9B9C1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD712F52ECCFDC69B286D8D /* InfoPlist.strings in Resources */,
+				FCD7193741D858DC540D47AE /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCD71B71B2DF2D48F3BF80E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD71E2D610DC952B6DF2B13 /* main.m in Sources */,
+				FCD713EB9F4F3CEC83410E70 /* AppDelegate.m in Sources */,
+				FCD71575B4FFACC4464479F9 /* ViewController.m in Sources */,
+				8ECE771D15DE547C00F13B08 /* UIView+InnerShadow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCD71304001AA650F910D82B /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCD715683CC6A02B9F71AFC6 /* ViewController_iPad.xib */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		FCD71FFEF10C41179CBD35B7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCD71B62547A607D92EE8302 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCD710E9F853CC839F49C875 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCD7125CF4CD1F0B555E1ACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCD71490ED5106906BC471B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "THInnerShadow/THInnerShadow-Prefix.pch";
+				INFOPLIST_FILE = "THInnerShadow/THInnerShadow-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = THInnerShadow;
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FCD71AC4876DF80FA8CBAFF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "THInnerShadow/THInnerShadow-Prefix.pch";
+				INFOPLIST_FILE = "THInnerShadow/THInnerShadow-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = THInnerShadow;
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCD71B2613A838B47CB5B39C /* Build configuration list for PBXProject "THInnerShadow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD710E9F853CC839F49C875 /* Release */,
+				FCD7125CF4CD1F0B555E1ACF /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCD71EA3DD871A51C9752B28 /* Build configuration list for PBXNativeTarget "THInnerShadow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD71490ED5106906BC471B8 /* Release */,
+				FCD71AC4876DF80FA8CBAFF1 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCD715E1664D44D8A153F6A7 /* Project object */;
+}
